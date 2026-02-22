@@ -3,7 +3,7 @@ cask "inodes" do
   name "inodes"
   desc "CLI for the Image Nodes image processing API"
   homepage "https://imagenodes.com"
-  version "0.2"
+  version "0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "inodes" do
   on_macos do
     on_intel do
       url "https://github.com/dmt195/inodes-cli/releases/download/v#{version}/inodes_darwin_amd64.tar.gz"
-      sha256 "ff19d814a6c9d0d5e90dfb17fc9fe97895b31112bc6c21dfbbb1c9f781d966dd"
+      sha256 "4ed8570cfd0992d54d9f167ad006aeecaa79b390e4686312903cf2a13330ae3a"
     end
     on_arm do
       url "https://github.com/dmt195/inodes-cli/releases/download/v#{version}/inodes_darwin_arm64.tar.gz"
-      sha256 "39eb51763afb4bc3fdd3b2f130659c407d0d562404e8ac22f2351ce40924bb69"
+      sha256 "ea2b7ec37b0c0f7698ee3886ed379e3829d9bd61d38d59e4e8ab686b822fe856"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dmt195/inodes-cli/releases/download/v#{version}/inodes_linux_amd64.tar.gz"
-      sha256 "bcc20080bdb3362000bc57950428bb098d56cad4e946f4961b730974c3192ac9"
+      sha256 "2f1861db8e20c99165b1989debebadb00a4d19967b2fdcfc347919525831fd42"
     end
     on_arm do
       url "https://github.com/dmt195/inodes-cli/releases/download/v#{version}/inodes_linux_arm64.tar.gz"
-      sha256 "7ed4325c8c0e1cde1c38b3ac4cc2505bfa57d9012441a30bfdd7fbd121d9f2fb"
+      sha256 "355d7905e8bc5723421e8f8599e314c6708b7125055ff63797826f2c61ff212e"
     end
   end
 
