@@ -1,8 +1,8 @@
 class Inodes < Formula
   desc "CLI for the Image Nodes image processing API"
   homepage "https://imagenodes.com"
-  url "https://github.com/dmt195/inodes-cli/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "304ad6bbe48da67cc695265ab19fe205a0a5075fa14b29f7374ff0e3241e86b5"
+  url "https://github.com/dmt195/inodes-cli/archive/refs/tags/v2.1.0.tar.gz"
+  sha256 "cd3a96e651bdf011176c71112e126a511b8d5267e377337ec5952557cb353a16"
   license "MIT"
 
   depends_on "go" => :build
